@@ -39,7 +39,7 @@ echo $purefecture[2] . 'と' . $purefecture[3] . 'は関東地方の都道府県
 // Q7 連想配列-1
 $purefecture = ['東京都' => '新宿区','神奈川県' => '横浜市','千葉県' => '千葉市','茨城県' => '水戸市','栃木県' => '宇都宮市','群馬県' => '前橋市','埼玉県' => 'さいたま市'];
 
-var_dump ($purefecture['東京都'],$purefecture['神奈川県'],$purefecture['千葉県'],$purefecture['茨城県'],$purefecture['栃木県'],$purefecture['群馬県'],$purefecture['埼玉県']);
+var_dump($purefecture['東京都'],$purefecture['神奈川県'],$purefecture['千葉県'],$purefecture['茨城県'],$purefecture['栃木県'],$purefecture['群馬県'],$purefecture['埼玉県']);
 
 // Q8 連想配列-2
 $purefecture = ['東京都' => '新宿区','神奈川県' => '横浜市','千葉県' => '千葉市','茨城県' => '水戸市','栃木県' => '宇都宮市','群馬県' => '前橋市','埼玉県' => 'さいたま市'];
