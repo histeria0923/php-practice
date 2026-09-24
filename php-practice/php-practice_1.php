@@ -68,7 +68,7 @@ function hello($name)
     return $name. 'さん、こんにちは。';
 }
 
-echo hello('金谷');
+echo hello('金谷') . PHP_EOL;
 echo hello('安藤');
 
 // Q11 関数-2
@@ -94,7 +94,7 @@ function distinguishNum($number)
     return $result;
 }
 
-echo distinguishNum(11);
+echo distinguishNum(11) . PHP_EOL;
 echo distinguishNum(24);
 
 // Q13 関数とswitch文
@@ -106,7 +106,7 @@ function evaluateGlrade($score){
             return '合格です。';
             
         case 'C':
-            return '合格ですが、追加課題があります。';
+            return '合格ですが追加課題があります。';
             
         case 'D':
             return '不合格です。';
@@ -115,7 +115,7 @@ function evaluateGlrade($score){
             return '判定不明です。講師に問い合わせてください。';
     }
 }
-echo evaluateGlrade('A');
+echo evaluateGlrade('A') . PHP_EOL;
 echo evaluateGlrade('C');
 
 ?>
